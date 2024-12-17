@@ -13,7 +13,7 @@ def alignment(input_path, score_path, output_path, aln, gap_open, gap_extend):
     .
     .
 ```
-* If there is more than one local alignment with the same highest score, you should output one with longest alignment length
+* If there is more than one local alignment with the same highest score, you should output one with the longest alignment length (i.e., the following command for local alignment).
 
 ## Files
 
@@ -35,7 +35,7 @@ def alignment(input_path, score_path, output_path, aln, gap_open, gap_extend):
 
 ## Command
 
-I'd like you to please be sure to execute your code with the following command.
+Please be sure to execute your code using the following command.
 
 ```Python
 alignment("test.fasta", "pam250.txt", "global", "result_global.fasta", -10, -2), threshold = 45
